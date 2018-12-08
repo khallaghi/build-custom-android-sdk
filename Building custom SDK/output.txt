@@ -1,0 +1,92 @@
+./external/robolectric/src/test/java/com/xtremelabs/robolectric/shadows/WifiManagerTest.java:    public void setWifiEnabled_shouldThrowSecurityExceptionWhenAccessWifiStatePermissionNotGranted() throws Exception {
+./external/robolectric/src/test/java/com/xtremelabs/robolectric/shadows/WifiManagerTest.java:        wifiManager.setWifiEnabled(true);
+./external/robolectric/src/main/java/com/xtremelabs/robolectric/shadows/ShadowWifiManager.java:    public boolean setWifiEnabled(boolean wifiEnabled) {
+./packages/apps/TvSettings/Settings/src/com/android/tv/settings/connectivity/NetworkActivity.java:                mConnectivityListener.setWifiEnabled(true);
+./packages/apps/TvSettings/Settings/src/com/android/tv/settings/connectivity/NetworkActivity.java:                mConnectivityListener.setWifiEnabled(false);
+./packages/apps/TvSettings/Settings/src/com/android/tv/settings/connectivity/ConnectivityListener.java:    public void setWifiEnabled(boolean enable) {
+./packages/apps/TvSettings/Settings/src/com/android/tv/settings/connectivity/ConnectivityListener.java:        mWifiManager.setWifiEnabled(enable);
+./packages/apps/ManagedProvisioning/src/com/android/managedprovisioning/WifiConfig.java:            mWifiManager.setWifiEnabled(true);
+./packages/apps/ManagedProvisioning/src/com/android/managedprovisioning/task/AddWifiNetworkTask.java:                && (mWifiManager.isWifiEnabled() || mWifiManager.setWifiEnabled(true));
+./packages/apps/Settings/src/com/android/settings/wifi/WifiEnabler.java:        if (!mWifiManager.setWifiEnabled(isChecked)) {
+./packages/apps/Settings/src/com/android/settings/widget/SettingsAppWidgetProvider.java:                    wifiManager.setWifiEnabled(desiredState);
+./development/apps/Development/src/com/android/development/Connectivity.java:                                mWm.setWifiEnabled(false);
+./development/apps/Development/src/com/android/development/Connectivity.java:                                mWm.setWifiEnabled(true);
+./development/apps/Development/src/com/android/development/Connectivity.java:                    mWm.setWifiEnabled(true);
+./development/apps/Development/src/com/android/development/Connectivity.java:                    mWm.setWifiEnabled(false);
+Binary file ./prebuilts/sdk/sdk-annotations/annotations.zip matchesd
+./prebuilts/sdk/system-api/23.txt:    method public boolean setWifiEnabled(boolean);
+./prebuilts/sdk/system-api/22.txt:    method public boolean setWifiEnabled(boolean);
+./prebuilts/sdk/api/19.txt:    method public boolean setWifiEnabled(boolean);
+./prebuilts/sdk/api/10.xml:<method name="setWifiEnabled"
+./prebuilts/sdk/api/11.xml:<method name="setWifiEnabled"
+./prebuilts/sdk/api/2.xml:<method name="setWifiEnabled"
+./prebuilts/sdk/api/6.xml:<method name="setWifiEnabled"
+./prebuilts/sdk/api/18.txt:    method public boolean setWifiEnabled(boolean);
+./prebuilts/sdk/api/1.xml:<method name="setWifiEnabled"
+./prebuilts/sdk/api/17.txt:    method public boolean setWifiEnabled(boolean);
+./prebuilts/sdk/api/20.txt:    method public boolean setWifiEnabled(boolean);
+./prebuilts/sdk/api/15.txt:    method public boolean setWifiEnabled(boolean);
+./prebuilts/sdk/api/5.xml:<method name="setWifiEnabled"
+./prebuilts/sdk/api/12.xml:<method name="setWifiEnabled"
+./prebuilts/sdk/api/16.txt:    method public boolean setWifiEnabled(boolean);
+./prebuilts/sdk/api/14.txt:    method public boolean setWifiEnabled(boolean);
+./prebuilts/sdk/api/13.xml:<method name="setWifiEnabled"
+./prebuilts/sdk/api/23.txt:    method public boolean setWifiEnabled(boolean);
+./prebuilts/sdk/api/8.xml:<method name="setWifiEnabled"
+./prebuilts/sdk/api/21.txt:    method public boolean setWifiEnabled(boolean);
+./prebuilts/sdk/api/22.txt:    method public boolean setWifiEnabled(boolean);
+./prebuilts/sdk/api/9.xml:<method name="setWifiEnabled"
+./prebuilts/sdk/api/7.xml:<method name="setWifiEnabled"
+./prebuilts/sdk/api/4.xml:<method name="setWifiEnabled"
+./prebuilts/sdk/api/3.xml:<method name="setWifiEnabled"
+./frameworks/data-binding/compiler/src/main/resources/api-versions.xml:		<method name="setWifiEnabled(Z)Z" />
+./frameworks/opt/net/wifi/service/java/com/android/server/wifi/WifiServiceImpl.java:        if (wifiEnabled) setWifiEnabled(wifiEnabled);
+./frameworks/opt/net/wifi/service/java/com/android/server/wifi/WifiServiceImpl.java:     * see {@link android.net.wifi.WifiManager#setWifiEnabled(boolean)}
+./frameworks/opt/net/wifi/service/java/com/android/server/wifi/WifiServiceImpl.java:    public synchronized boolean setWifiEnabled(boolean enable) {
+./frameworks/opt/net/wifi/service/java/com/android/server/wifi/WifiServiceImpl.java:        Slog.d(TAG, "setWifiEnabled: " + enable + " pid=" + Binder.getCallingPid()
+./frameworks/opt/net/wifi/service/java/com/android/server/wifi/WifiServiceImpl.java:            Slog.e(TAG, "Invoking mWifiStateMachine.setWifiEnabled\n");
+./frameworks/opt/net/wifi/service/java/com/android/server/wifi/WifiServiceImpl.java:            setWifiEnabled(true);
+./frameworks/base/wifi/java/android/net/wifi/IWifiManager.aidl:    boolean setWifiEnabled(boolean enable);
+./frameworks/base/wifi/java/android/net/wifi/WifiManager.java:    public boolean setWifiEnabled(boolean enabled) {
+./frameworks/base/wifi/java/android/net/wifi/WifiManager.java:            return mService.setWifiEnabled(enabled);
+./frameworks/base/core/tests/coretests/src/android/app/DownloadManagerBaseTest.java:        manager.setWifiEnabled(enable);
+./frameworks/base/core/tests/hosttests/test-apps/DownloadManagerTestApp/src/com/android/frameworks/downloadmanagertests/DownloadManagerBaseTest.java:        manager.setWifiEnabled(enable);
+./frameworks/base/core/tests/bandwidthtests/src/com/android/bandwidthtest/util/ConnectionUtil.java:        mWifiManager.setWifiEnabled(true);
+./frameworks/base/core/tests/bandwidthtests/src/com/android/bandwidthtest/util/ConnectionUtil.java:            mWifiManager.setWifiEnabled(true);
+./frameworks/base/core/tests/bandwidthtests/src/com/android/bandwidthtest/util/ConnectionUtil.java:        return mWifiManager.setWifiEnabled(true);
+./frameworks/base/core/tests/bandwidthtests/src/com/android/bandwidthtest/util/ConnectionUtil.java:        return mWifiManager.setWifiEnabled(false);
+./frameworks/base/core/tests/bandwidthtests/src/com/android/bandwidthtest/util/ConnectionUtil.java:        if (!mWifiManager.setWifiEnabled(false)) {
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/unit/WifiClientTest.java:        mWifiManager.setWifiEnabled(true);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/unit/WifiClientTest.java:        mWifiManager.setWifiEnabled(false);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/unit/WifiClientTest.java:        mWifiManager.setWifiEnabled(true);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/unit/WifiClientTest.java:        mWifiManager.setWifiEnabled(false);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/unit/WifiClientTest.java:        mWifiManager.setWifiEnabled(true);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/unit/WifiClientTest.java:        mWifiManager.setWifiEnabled(false);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/unit/WifiClientTest.java:        mWifiManager.setWifiEnabled(true);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/unit/WifiClientTest.java:        mWifiManager.setWifiEnabled(false);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/unit/WifiClientTest.java:        mWifiManager.setWifiEnabled(false);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/unit/WifiClientTest.java:        mWifiManager.setWifiEnabled(true);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/unit/WifiClientTest.java:        mWifiManager.setWifiEnabled(false);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/ConnectivityManagerTestBase.java:        return mWifiManager.setWifiEnabled(true);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/ConnectivityManagerTestBase.java:            mWifiManager.setWifiEnabled(true);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/ConnectivityManagerTestBase.java:            mWifiManager.setWifiEnabled(true);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/ConnectivityManagerTestBase.java:        return mWifiManager.setWifiEnabled(false);
+./frameworks/base/core/tests/ConnectivityManagerTest/src/com/android/connectivitymanagertest/ConnectivityManagerTestBase.java:        if (!mWifiManager.setWifiEnabled(false)) {
+./frameworks/base/core/java/android/app/admin/DevicePolicyManager.java:     *   Use {@link android.net.wifi.WifiManager#setWifiEnabled(boolean)} instead.</li>
+./frameworks/base/packages/SettingsProvider/src/com/android/providers/settings/SettingsBackupAgent.java:            mWfm.setWifiEnabled(enable);
+./frameworks/base/packages/SystemUI/tests/src/com/android/systemui/statusbar/policy/NetworkControllerWifiTest.java:        setWifiEnabled(true);
+./frameworks/base/packages/SystemUI/tests/src/com/android/systemui/statusbar/policy/NetworkControllerWifiTest.java:        setWifiEnabled(false);
+./frameworks/base/packages/SystemUI/tests/src/com/android/systemui/statusbar/policy/NetworkControllerWifiTest.java:        setWifiEnabled(true);
+./frameworks/base/packages/SystemUI/tests/src/com/android/systemui/statusbar/policy/NetworkControllerWifiTest.java:        setWifiEnabled(true);
+./frameworks/base/packages/SystemUI/tests/src/com/android/systemui/statusbar/policy/NetworkControllerWifiTest.java:        setWifiEnabled(true);
+./frameworks/base/packages/SystemUI/tests/src/com/android/systemui/statusbar/policy/NetworkControllerWifiTest.java:    protected void setWifiEnabled(boolean enabled) {
+./frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/policy/NetworkController.java:    void setWifiEnabled(boolean enabled);
+./frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/policy/NetworkControllerImpl.java:    public void setWifiEnabled(final boolean enabled) {
+./frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/policy/NetworkControllerImpl.java:                mWifiManager.setWifiEnabled(enabled);
+./frameworks/base/packages/SystemUI/src/com/android/systemui/qs/tiles/WifiTile.java:        mController.setWifiEnabled(!mState.enabled);
+./frameworks/base/packages/SystemUI/src/com/android/systemui/qs/tiles/WifiTile.java:            mController.setWifiEnabled(true);
+./frameworks/base/packages/SystemUI/src/com/android/systemui/qs/tiles/WifiTile.java:            mController.setWifiEnabled(state);
+./frameworks/base/api/current.txt:    method public boolean setWifiEnabled(boolean);
+./frameworks/base/api/system-current.txt:    method public boolean setWifiEnabled(boolean);
+./frameworks/base/cmds/svc/src/com/android/commands/svc/WifiCommand.java:                    wifiMgr.setWifiEnabled(flag);
+
